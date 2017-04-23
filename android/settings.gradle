@@ -1,0 +1,5 @@
+rootProject.name = 'Clickify'
+
+include ':app'
+include ':react-native-clickify'
+project(':react-native-clickify').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-clickify/android')
